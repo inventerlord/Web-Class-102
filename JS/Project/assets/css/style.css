@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+
+}
+
+/* Header Start */
+.wrapper .header{
+    background-color: rgb(192, 90, 59);
+}
+
+.wrapper .header .main-nav{
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+    justify-content: center;
+}
+.main-nav .menu-items{
+
+}
+.main-nav .menu-link{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px;
+    font-size: 20px;
+}
+.main-nav .menu-link:hover{
+    background-color: rgb(197, 119, 96);;
+}
+/* Header - End */
+
+/* Hero Start */
+.hero-container{
+    
+    position: relative;
+}
+
+.hero-img{
+    height: 600px;
+    width: 100%;
+}
+.hero-img img{
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+}
+.hero-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 128, 0, 0.63);
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+}
+
+.hero-container .caption-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+}
+/* Hero End */
