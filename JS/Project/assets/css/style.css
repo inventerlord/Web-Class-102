@@ -10,6 +10,12 @@
 .wrapper{
 
 }
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
 /* heading-container start */
 .heading-container{
     margin: 20px auto;
@@ -144,4 +150,5 @@
     height: 100%;
     width: 100%;
 }
+
 /* banner end */
