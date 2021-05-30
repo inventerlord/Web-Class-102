@@ -1,3 +1,8 @@
+:root{
+    --headingColor : #555;
+    --headingFortSize : 40px
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +10,25 @@
 .wrapper{
 
 }
+/* heading-container start */
+.heading-container{
+    margin: 20px auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-container .heading{
+    width: 100%;
+    text-align: center;
 
+}
+.heading *{
+    font-size: var(--headingFortSize);
+    color: var(--headingColor);
+    text-decoration: underline;
+}
+/* heading-container end */
 /* Header Start */
 .wrapper .header{
     background-color: rgb(192, 90, 59);
@@ -73,3 +96,52 @@
     font-size: 30px;
 }
 /* Hero End */
+
+/* product_start */
+.product-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.product-container .product-item{
+    width: 300px;
+    height: 350px;
+    border: 4px solid white;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 1px 20px black;
+    
+}
+.product-item img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s;
+}
+.product-item:hover img{
+    transform: scale(1.3);
+}
+/* product_ends */
+
+
+/*  banner st*/
+.banner-container{
+
+    margin: 60px auto;
+}
+.banner-container .banner-Items{
+    width: 100%;
+    height: 300px;
+    border: 3px solid white;
+    box-shadow: 0 1px 20px black;
+}
+.banner-Items img{
+    height: 100%;
+    width: 100%;
+}
+/* banner end */
