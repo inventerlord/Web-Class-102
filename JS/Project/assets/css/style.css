@@ -58,7 +58,7 @@
     font-size: 20px;
 }
 .main-nav .menu-link:hover{
-    background-color: rgb(197, 119, 96);;
+    background-color: rgb(197, 119, 96);
 }
 /* Header - End */
 
@@ -152,3 +152,78 @@
 }
 
 /* banner end */
+
+@media (max-width: 1400px) {
+    .wrapper .header{
+        background-color: rgb(192, 90, 59);
+    }
+    .wrapper .header .main-nav{
+        display: flex;
+    }
+    .hero-container .caption-container{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .wrapper .header{
+        background-color: rgb(192, 90, 59);
+    }
+    .wrapper .header .main-nav{
+        display: flex;
+    }
+    .hero-container .caption-container{
+        font-size: 30px;
+    }
+    
+}
+@media (max-width: 1200px) {
+    
+    .hero-container .caption-container{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 990px) {
+    .wrapper .header{
+        background-color: rgb(192, 90, 59);
+    }
+    .wrapper .header .main-nav{
+        display: flex;
+    }
+    .hero-container .caption-container{
+        font-size: 20px;
+    }
+}
+@media (max-width: 760px) {
+    .wrapper .header{
+        background-color: rgb(192, 90, 59);
+    }
+    .wrapper .header .main-nav{
+        display: flex;
+    }
+    .hero-container .caption-container{
+        font-size: 15px;
+    }
+    
+}
+@media (max-width: 650px) {
+    .wrapper .header{
+        background-color: rgb(192, 90, 59);
+    }
+    .wrapper .header .main-nav{
+        display: block;
+    }
+    .hero-container .caption-container{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 550px) {
+    .wrapper .header{
+        background-color: rgb(97, 24, 1);
+    }
+    .hero-container .caption-container{
+        font-size: 20px;
+    }
+    
+}
